@@ -11,3 +11,51 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#location-finder-instructions {
+  margin-bottom: 10px;
+}
+
+#weather-container {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+#current-weather-stats {
+  margin-left: 1em;
+}
+
+#news-header {
+  margin-bottom: 20px;
+}
+
+#news-stack {
+  margin-bottom: 50px;
+}
+
+#weather-header {
+  margin: 0px;
+}
+
+#weather-series-select {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.weather-series {
+  margin-bottom: 100px;
+}
+
+.news-text {
+  flex-grow: 1;
+  margin: 15px;
+}
+
+a.no-link-format, a.no-link-format:hover, a.no-link-format:focus, a.no-link-format:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.news-story {
+  width: 42vw;
+}
